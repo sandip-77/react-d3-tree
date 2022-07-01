@@ -160,15 +160,15 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Tree<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_tree_index_.tree.html" class="tsd-signature-type">Tree</a></li>
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Tree<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a>, context<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_tree_index_.tree.html" class="tsd-signature-type">Tree</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Tree<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_tree_index_.tree.html" class="tsd-signature-type">Tree</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Tree<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a>, context<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_tree_index_.tree.html" class="tsd-signature-type">Tree</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_node_index_.node.html">Node</a>.<a href="_node_index_.node.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:448</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:472</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -183,7 +183,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>props: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>props: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="_tree_index_.tree.html" class="tsd-signature-type">Tree</a></h4>
@@ -192,7 +192,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_node_index_.node.html">Node</a>.<a href="_node_index_.node.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:450</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:474</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -210,7 +210,7 @@
 									<h5>props: <a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a></h5>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> context: <span class="tsd-signature-type">any</span></h5>
+									<h5>context: <span class="tsd-signature-type">any</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="_tree_index_.tree.html" class="tsd-signature-type">Tree</a></h4>
@@ -227,7 +227,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_node_index_.node.html">Node</a>.<a href="_node_index_.node.html#context">context</a></p>
 						<ul>
-							<li>Defined in node_modules/@types/react/index.d.ts:448</li>
+							<li>Defined in node_modules/@types/react/index.d.ts:472</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -240,7 +240,8 @@
 <span class="hljs-comment">// For TS pre-3.7:</span>
 context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContext&gt;
 <span class="hljs-comment">// For TS 3.7 and above:</span>
-<span class="hljs-keyword">declare</span> context: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContext&gt;</code></pre>
+<span class="hljs-keyword">declare</span> context: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContext&gt;
+</code></pre>
 						<dl class="tsd-comment-tags">
 							<dt>see</dt>
 							<dd><p><a href="https://reactjs.org/docs/context.html">https://reactjs.org/docs/context.html</a></p>
@@ -254,18 +255,18 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 					<div class="tsd-signature tsd-kind-icon">g<wbr>Instance<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &#x60;rd3t-g-${uuidv4()}&#x60;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L72">src/Tree/index.tsx:72</a></li>
+							<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L72">src/Tree/index.tsx:72</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="props" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> props</h3>
-					<div class="tsd-signature tsd-kind-icon">props<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>children<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ReactNode</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">props<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_tree_types_.treeprops.html" class="tsd-signature-type">TreeProps</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>children<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ReactNode</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_node_index_.node.html">Node</a>.<a href="_node_index_.node.html#props">props</a></p>
 						<ul>
-							<li>Defined in node_modules/@types/react/index.d.ts:473</li>
+							<li>Defined in node_modules/@types/react/index.d.ts:497</li>
 						</ul>
 					</aside>
 				</section>
@@ -276,7 +277,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_node_index_.node.html">Node</a>.<a href="_node_index_.node.html#refs">refs</a></p>
 						<ul>
-							<li>Defined in node_modules/@types/react/index.d.ts:479</li>
+							<li>Defined in node_modules/@types/react/index.d.ts:503</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -301,18 +302,18 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 					<div class="tsd-signature tsd-kind-icon">svg<wbr>Instance<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &#x60;rd3t-svg-${uuidv4()}&#x60;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L71">src/Tree/index.tsx:71</a></li>
+							<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L71">src/Tree/index.tsx:71</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static">
 					<a name="contexttype" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagOptional">Optional</span> context<wbr>Type</h3>
-					<div class="tsd-signature tsd-kind-icon">context<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Context</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">context<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Context</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_node_index_.node.html">Node</a>.<a href="_node_index_.node.html#contexttype">contextType</a></p>
 						<ul>
-							<li>Defined in node_modules/@types/react/index.d.ts:430</li>
+							<li>Defined in node_modules/@types/react/index.d.ts:454</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -329,7 +330,8 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
   render () {
     <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;&gt;</span>My context&#x27;s value: {this.context}<span class="hljs-tag">&lt;/&gt;</span></span>;
   }
-}</code></pre>
+}
+</code></pre>
 						<dl class="tsd-comment-tags">
 							<dt>see</dt>
 							<dd><p><a href="https://reactjs.org/docs/context.html#classcontexttype">https://reactjs.org/docs/context.html#classcontexttype</a></p>
@@ -351,7 +353,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#unsafe_componentwillmount">UNSAFE_componentWillMount</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:674</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:710</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -389,7 +391,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#unsafe_componentwillreceiveprops">UNSAFE_componentWillReceiveProps</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:706</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:742</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -438,7 +440,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#unsafe_componentwillupdate">UNSAFE_componentWillUpdate</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:734</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:770</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -487,7 +489,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L143">src/Tree/index.tsx:143</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L143">src/Tree/index.tsx:143</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -517,7 +519,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L394">src/Tree/index.tsx:394</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L394">src/Tree/index.tsx:394</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -548,7 +550,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L272">src/Tree/index.tsx:272</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L272">src/Tree/index.tsx:272</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -580,7 +582,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#componentdidcatch">componentDidCatch</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:603</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:639</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -613,7 +615,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Overrides ComponentLifecycle.componentDidMount</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L92">src/Tree/index.tsx:92</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L92">src/Tree/index.tsx:92</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -631,7 +633,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#componentdidupdate">componentDidUpdate</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L97">src/Tree/index.tsx:97</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L97">src/Tree/index.tsx:97</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -655,7 +657,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#componentwillmount">componentWillMount</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:660</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:696</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -692,7 +694,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#componentwillreceiveprops">componentWillReceiveProps</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:689</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:725</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -740,7 +742,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#componentwillunmount">componentWillUnmount</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:598</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:634</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -764,7 +766,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#componentwillupdate">componentWillUpdate</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:719</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:755</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -812,7 +814,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L234">src/Tree/index.tsx:234</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L234">src/Tree/index.tsx:234</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -855,7 +857,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L214">src/Tree/index.tsx:214</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L214">src/Tree/index.tsx:214</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -890,7 +892,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_node_index_.node.html">Node</a>.<a href="_node_index_.node.html#forceupdate">forceUpdate</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:465</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:489</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -925,7 +927,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L429">src/Tree/index.tsx:429</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L429">src/Tree/index.tsx:429</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -958,7 +960,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L486">src/Tree/index.tsx:486</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L486">src/Tree/index.tsx:486</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -990,7 +992,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#getsnapshotbeforeupdate">getSnapshotBeforeUpdate</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:639</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:675</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1025,7 +1027,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L286">src/Tree/index.tsx:286</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L286">src/Tree/index.tsx:286</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1057,7 +1059,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L330">src/Tree/index.tsx:330</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L330">src/Tree/index.tsx:330</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1091,7 +1093,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L378">src/Tree/index.tsx:378</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L378">src/Tree/index.tsx:378</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1125,7 +1127,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L354">src/Tree/index.tsx:354</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L354">src/Tree/index.tsx:354</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1159,7 +1161,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L318">src/Tree/index.tsx:318</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L318">src/Tree/index.tsx:318</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1190,7 +1192,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L366">src/Tree/index.tsx:366</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L366">src/Tree/index.tsx:366</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1221,7 +1223,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L342">src/Tree/index.tsx:342</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L342">src/Tree/index.tsx:342</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1253,7 +1255,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Overrides Component.render</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L496">src/Tree/index.tsx:496</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L496">src/Tree/index.tsx:496</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Element</span></h4>
@@ -1270,7 +1272,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L132">src/Tree/index.tsx:132</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L132">src/Tree/index.tsx:132</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1308,7 +1310,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_node_index_.node.html">Node</a>.<a href="_node_index_.node.html#setstate">setState</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:460</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:484</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1353,7 +1355,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_link_index_.link.html">Link</a>.<a href="_link_index_.link.html#shouldcomponentupdate">shouldComponentUpdate</a></p>
 								<ul>
-									<li>Defined in node_modules/@types/react/index.d.ts:593</li>
+									<li>Defined in node_modules/@types/react/index.d.ts:629</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1392,7 +1394,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L192">src/Tree/index.tsx:192</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L192">src/Tree/index.tsx:192</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1428,7 +1430,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L468">src/Tree/index.tsx:468</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L468">src/Tree/index.tsx:468</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1471,7 +1473,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L250">src/Tree/index.tsx:250</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L250">src/Tree/index.tsx:250</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1504,7 +1506,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L265">src/Tree/index.tsx:265</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L265">src/Tree/index.tsx:265</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1537,7 +1539,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L74">src/Tree/index.tsx:74</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L74">src/Tree/index.tsx:74</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1562,7 +1564,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 					<div class="tsd-signature tsd-kind-icon">internal<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L66">src/Tree/index.tsx:66</a></li>
+							<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L66">src/Tree/index.tsx:66</a></li>
 						</ul>
 					</aside>
 					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -1571,7 +1573,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">is<wbr>Transitioning<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L68">src/Tree/index.tsx:68</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L68">src/Tree/index.tsx:68</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1581,7 +1583,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">target<wbr>Node<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> = null</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L67">src/Tree/index.tsx:67</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L67">src/Tree/index.tsx:67</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1593,7 +1595,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 					<aside class="tsd-sources">
 						<p>Overrides Component.state</p>
 						<ul>
-							<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L58">src/Tree/index.tsx:58</a></li>
+							<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L58">src/Tree/index.tsx:58</a></li>
 						</ul>
 					</aside>
 					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -1602,7 +1604,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">d3<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>scale<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>translate<span class="tsd-signature-symbol">: </span><a href="../interfaces/_types_common_.point.html" class="tsd-signature-type">Point</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> = Tree.calculateD3Geometry(this.props)</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L61">src/Tree/index.tsx:61</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L61">src/Tree/index.tsx:61</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-type-declaration">
@@ -1623,7 +1625,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">data<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_types_common_.treenodedatum.html" class="tsd-signature-type">TreeNodeDatum</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = Tree.assignInternalProperties(clone(this.props.data))</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L60">src/Tree/index.tsx:60</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L60">src/Tree/index.tsx:60</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1633,7 +1635,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">data<wbr>Ref<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_types_common_.rawnodedatum.html" class="tsd-signature-type">RawNodeDatum</a><span class="tsd-signature-symbol"> | </span><a href="../interfaces/_types_common_.rawnodedatum.html" class="tsd-signature-type">RawNodeDatum</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = this.props.data</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L59">src/Tree/index.tsx:59</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L59">src/Tree/index.tsx:59</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1643,7 +1645,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">is<wbr>Initial<wbr>Render<wbr>For<wbr>Dataset<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> = true</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L63">src/Tree/index.tsx:63</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L63">src/Tree/index.tsx:63</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1653,7 +1655,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">is<wbr>Transitioning<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> = false</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L62">src/Tree/index.tsx:62</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L62">src/Tree/index.tsx:62</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1664,7 +1666,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 					<div class="tsd-signature tsd-kind-icon">default<wbr>Props<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L25">src/Tree/index.tsx:25</a></li>
+							<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L25">src/Tree/index.tsx:25</a></li>
 						</ul>
 					</aside>
 					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -1673,7 +1675,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">branch<wbr>Node<wbr>Class<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L49">src/Tree/index.tsx:49</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L49">src/Tree/index.tsx:49</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1683,7 +1685,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">centering<wbr>Transition<wbr>Duration<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 800</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L55">src/Tree/index.tsx:55</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L55">src/Tree/index.tsx:55</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1693,7 +1695,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">collapsible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> = true</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L39">src/Tree/index.tsx:39</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L39">src/Tree/index.tsx:39</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1703,7 +1705,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">depth<wbr>Factor<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L38">src/Tree/index.tsx:38</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L38">src/Tree/index.tsx:38</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1713,7 +1715,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">dimensions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L54">src/Tree/index.tsx:54</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L54">src/Tree/index.tsx:54</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1723,7 +1725,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">enable<wbr>Legacy<wbr>Transitions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> = false</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L52">src/Tree/index.tsx:52</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L52">src/Tree/index.tsx:52</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1733,7 +1735,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">has<wbr>Interactive<wbr>Nodes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> = false</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L53">src/Tree/index.tsx:53</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L53">src/Tree/index.tsx:53</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1743,7 +1745,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">initial<wbr>Depth<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L40">src/Tree/index.tsx:40</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L40">src/Tree/index.tsx:40</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1753,7 +1755,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">leaf<wbr>Node<wbr>Class<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L50">src/Tree/index.tsx:50</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L50">src/Tree/index.tsx:50</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1763,7 +1765,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">on<wbr>Link<wbr>Click<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L29">src/Tree/index.tsx:29</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L29">src/Tree/index.tsx:29</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1773,7 +1775,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">on<wbr>Link<wbr>Mouse<wbr>Out<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L31">src/Tree/index.tsx:31</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L31">src/Tree/index.tsx:31</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1783,7 +1785,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">on<wbr>Link<wbr>Mouse<wbr>Over<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L30">src/Tree/index.tsx:30</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L30">src/Tree/index.tsx:30</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1793,7 +1795,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">on<wbr>Node<wbr>Click<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L26">src/Tree/index.tsx:26</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L26">src/Tree/index.tsx:26</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1803,7 +1805,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">on<wbr>Node<wbr>Mouse<wbr>Out<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L28">src/Tree/index.tsx:28</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L28">src/Tree/index.tsx:28</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1813,7 +1815,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">on<wbr>Node<wbr>Mouse<wbr>Over<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L27">src/Tree/index.tsx:27</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L27">src/Tree/index.tsx:27</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1823,7 +1825,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">on<wbr>Update<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L32">src/Tree/index.tsx:32</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L32">src/Tree/index.tsx:32</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1833,7 +1835,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">orientation<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"horizontal"</span><span class="tsd-signature-symbol"> = &quot;horizontal&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L33">src/Tree/index.tsx:33</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L33">src/Tree/index.tsx:33</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1843,7 +1845,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">path<wbr>Class<wbr>Func<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L36">src/Tree/index.tsx:36</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L36">src/Tree/index.tsx:36</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1853,7 +1855,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">path<wbr>Func<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"diagonal"</span><span class="tsd-signature-symbol"> = &quot;diagonal&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L35">src/Tree/index.tsx:35</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L35">src/Tree/index.tsx:35</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1863,7 +1865,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">render<wbr>Custom<wbr>Node<wbr>Element<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> = undefined</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L51">src/Tree/index.tsx:51</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L51">src/Tree/index.tsx:51</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1873,7 +1875,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">root<wbr>Node<wbr>Class<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L48">src/Tree/index.tsx:48</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L48">src/Tree/index.tsx:48</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1883,7 +1885,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">should<wbr>Collapse<wbr>Neighbor<wbr>Nodes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> = false</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L46">src/Tree/index.tsx:46</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L46">src/Tree/index.tsx:46</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1893,7 +1895,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">svg<wbr>Class<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L47">src/Tree/index.tsx:47</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L47">src/Tree/index.tsx:47</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1903,7 +1905,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">transition<wbr>Duration<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 500</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L37">src/Tree/index.tsx:37</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L37">src/Tree/index.tsx:37</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1913,7 +1915,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">zoom<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 1</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L42">src/Tree/index.tsx:42</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L42">src/Tree/index.tsx:42</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1923,7 +1925,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">zoomable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> = true</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L41">src/Tree/index.tsx:41</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L41">src/Tree/index.tsx:41</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1933,7 +1935,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">node<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L44">src/Tree/index.tsx:44</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L44">src/Tree/index.tsx:44</a></li>
 							</ul>
 						</aside>
 						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -1942,7 +1944,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<div class="tsd-signature tsd-kind-icon">x<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 140</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L44">src/Tree/index.tsx:44</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L44">src/Tree/index.tsx:44</a></li>
 								</ul>
 							</aside>
 						</section>
@@ -1952,7 +1954,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<div class="tsd-signature tsd-kind-icon">y<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 140</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L44">src/Tree/index.tsx:44</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L44">src/Tree/index.tsx:44</a></li>
 								</ul>
 							</aside>
 						</section>
@@ -1963,7 +1965,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">scale<wbr>Extent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L43">src/Tree/index.tsx:43</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L43">src/Tree/index.tsx:43</a></li>
 							</ul>
 						</aside>
 						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -1972,7 +1974,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<div class="tsd-signature tsd-kind-icon">max<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 1</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L43">src/Tree/index.tsx:43</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L43">src/Tree/index.tsx:43</a></li>
 								</ul>
 							</aside>
 						</section>
@@ -1982,7 +1984,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<div class="tsd-signature tsd-kind-icon">min<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 0.1</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L43">src/Tree/index.tsx:43</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L43">src/Tree/index.tsx:43</a></li>
 								</ul>
 							</aside>
 						</section>
@@ -1993,7 +1995,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">separation<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L45">src/Tree/index.tsx:45</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L45">src/Tree/index.tsx:45</a></li>
 							</ul>
 						</aside>
 						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -2002,7 +2004,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<div class="tsd-signature tsd-kind-icon">non<wbr>Siblings<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 2</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L45">src/Tree/index.tsx:45</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L45">src/Tree/index.tsx:45</a></li>
 								</ul>
 							</aside>
 						</section>
@@ -2012,7 +2014,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<div class="tsd-signature tsd-kind-icon">siblings<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 1</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L45">src/Tree/index.tsx:45</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L45">src/Tree/index.tsx:45</a></li>
 								</ul>
 							</aside>
 						</section>
@@ -2023,7 +2025,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 						<div class="tsd-signature tsd-kind-icon">translate<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L34">src/Tree/index.tsx:34</a></li>
+								<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L34">src/Tree/index.tsx:34</a></li>
 							</ul>
 						</aside>
 						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -2032,7 +2034,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<div class="tsd-signature tsd-kind-icon">x<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 0</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L34">src/Tree/index.tsx:34</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L34">src/Tree/index.tsx:34</a></li>
 								</ul>
 							</aside>
 						</section>
@@ -2042,7 +2044,7 @@ context!: React.ContextType&lt;<span class="hljs-keyword">typeof</span> MyContex
 							<div class="tsd-signature tsd-kind-icon">y<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 0</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/bkrem/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L34">src/Tree/index.tsx:34</a></li>
+									<li>Defined in <a href="https://github.com/sandip-77/react-d3-tree/blob/0d36a65/src/Tree/index.tsx#L34">src/Tree/index.tsx:34</a></li>
 								</ul>
 							</aside>
 						</section>
